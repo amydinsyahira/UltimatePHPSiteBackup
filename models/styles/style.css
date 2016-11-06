@@ -1,0 +1,291 @@
+/* 
+    Document   : Main Stylesheet
+    Created on : Mar 6, 2010, 3:47:14 PM
+    Author     : Isa Hassen
+    Description: Main stylesheet for the Ultimate PHP Site Backup app.
+
+*/
+
+body
+{
+    color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: normal;
+    letter-spacing: normal;
+    line-height: 1.4em;
+    background-color: #F5F5F5;
+}
+
+h1
+{
+    color: #4D4D4D;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: normal;
+    letter-spacing: -2px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+h2
+{
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.7em;
+    color: #246DB5;
+}
+
+h3
+{
+    background-color: white;
+    border: 1px solid #e8e8e8;
+    color: #b0b0b0;
+    font-family: Consolas,Courier New,Courier,monospace;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 3px;
+    margin: -1px;
+}
+
+h3 img
+{
+    padding-right: 5px;
+}
+
+img
+{
+    vertical-align: middle;
+}
+
+.textinput, .dbinput
+{
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    font: bold 1.05em;
+    -moz-border-radius: 0.4em;
+    -khtml-border-radius: 0.4em;
+}
+
+.textinput
+{
+    width: 20em;
+}
+
+fieldset
+{
+    border: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+legend
+{
+    color: #fff;
+    background: #246DB5;
+    border: 1px solid #e8e8e8;
+    padding: 2px 6px;
+}
+
+.backupfile a:link, .backupfile a:visited, .backupfile a:active, .backupfile a
+{
+    color: #1B576F;
+    text-decoration: none;
+}
+
+.backupfile a:hover
+{
+    color: white;
+    padding: 2px;
+    text-decoration: underline;
+    background-color: #0A80AF;
+}
+
+
+#outer-wrapper
+{
+    width: 600px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #DDDDDD;
+    background-color: #FFF;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+table
+{
+    font-size: 12px;
+    text-align: left;
+    border-collapse: collapse; /*border: 1px solid #69c;*/
+    border: none;
+}
+table th
+{
+    padding: 15px 10px 10px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2F2F2F;
+}
+
+table tbody
+{
+    background: #e8edff;
+}
+
+table td
+{
+    padding: 10px;
+    color: #2F2F2F;
+    border-top: 1px dashed #fff;
+}
+
+table tbody tr.odd:hover td
+{
+    color: #339;
+    background: #d0dafd;
+}
+
+table tbody tr.even
+{
+    background: #EFF8FF;
+}
+
+.fileSelector
+{
+    margin: 10px;
+    width: 500px;
+    height: 200px;
+    overflow: scroll;
+    border: 1px solid #F2F2F2;
+    padding: 5px;
+}
+
+.fileCheckbox
+{
+    display: inline;
+}
+
+.pointer:hover, .rollover:hover, .bcsname, .pointer
+{
+    cursor: pointer;
+}
+
+.btntext
+{
+    cursor:pointer;
+    text-decoration:none;
+    background-color:#E8E8E8;
+    color:gray;
+    padding:3px;
+    margin:2px;
+}
+
+.btntext:hover
+{
+    background-color:Black;
+    color:blue;
+}
+
+.bcsname, .bcsname:link, .bcsname:visited, .bcsname:active
+{
+    text-decoration: underline;
+    font-size: 110%;
+}
+
+.bcsname:hover
+{
+    text-decoration: overline;
+}
+
+.bsetruns
+{
+    display: none;
+}
+
+#addBcS, #config
+{
+    display: none;
+    padding: 10px;
+}
+
+.action_btns img
+{
+    padding-right: 10px;
+}
+
+#container
+{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 260px;
+}
+
+.solid-gray
+{
+    border: solid 1px #DEDEDE;
+    background: #EFEFEF;
+    color: #222222;
+    padding: 4px;
+    text-align: center;
+}
+.solid-yellow
+{
+    border: solid 1px #DEDEDE;
+    background: #FFFFCC;
+    color: #222222;
+    padding: 4px;
+    text-align: center;
+}
+.solid-ok
+{
+    border: solid 1px #349534;
+    background: #C9FFCA;
+    color: #008000;
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+}
+.solid-error
+{
+    border: solid 1px #CC0000;
+    background: #F7CBCA;
+    color: #CC0000;
+    font-weight: bold;
+    padding: 4px;
+    text-align: center;
+}
+
+.tooltip
+{
+    position: absolute;
+    padding: 10px 13px;
+    z-index: 2;
+    color: #303030;
+    background-color: #f5f5b5;
+    border: 1px solid #DECA7E;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.footer
+{
+    width: 100%;
+    font-size: 80%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #EFEFEF;
+}

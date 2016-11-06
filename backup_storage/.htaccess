@@ -1,0 +1,16 @@
+#BEGIN Ultimate PHP Site Backup Config
+
+IndexIgnore *
+
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+<Limit GET>
+order deny,allow
+deny from all
+</Limit> 
+
+#END Ultimate PHP Site Backup Config

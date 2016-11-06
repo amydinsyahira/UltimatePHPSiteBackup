@@ -1,0 +1,2 @@
+; This file stores the log and time of the last time your cron.php ran.
+CRON_LAST_RUN = never;
